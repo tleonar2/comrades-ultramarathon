@@ -1,36 +1,86 @@
 img, p, h1, h2, .divider {
 	width: 100%;
-	max-width: 640px;
+	max-width: 800px;
     margin-left: auto;
 	margin-right: auto;
 }
 
-
 img {
 	display: block;
-    padding: 15px 0px;
+    padding: 15px 15px;
 }
 
-.mushroom {
-    display: block;
-    padding: 15px 0px;
-    max-width: 1000px;
+img:first-of-type {
+    padding-top: 0;
+}
+
+.race-map {
+    width: 500px;
+    height: auto;
 }
 
 p {
 	font-size: 18px;
 	line-height: 1.4;
     font-family: "Crimson Text";
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
-h1, h2 { 
+.name {
+	font-size: 18px;
+	line-height: 1.4;
+    font-family: "Crimson Text";
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 38px;
     font-family: "Roboto";
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: "Crimson Text";
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.date {
+    font-family: "Roboto";
+    text-align: left;
+    font-size: 13px;
+    color: grey;
+    margin-top: 0px;
 }
     
 .divider {
     height: 2px;
-    background-color: #0868ac;
-    margin-top: 10px;
+    background-color: #f28383;
+    margin-top: 15px;
     margin-bottom: 10px;
     }
     
+.legion {
+    width: 12%;
+    margin-top: 20px;
+}
+
+a {
+    color: #DC3438;
+}
+
+.highlight {
+    color: #DC3438;
+}
+
+.footer {
+    font-size: 18px;
+	line-height: 1.4;
+    font-family: "Crimson Text";
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
